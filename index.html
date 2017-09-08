@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Wörter Pareidolie</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/trello-clipboard.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <div id="words">
+      <div class="row">
+
+        <div class="one-half column" style="margin-right: 0%;">
+          <h2 id="german-word-1" style="text-align: right;">Laden...</h2>
+        </div>
+
+        <div class="one-half column" style="margin-left: 0%;">
+          <h2 id="german-word-2" style="text-align: left;"></h2>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="five columns">
+          <h4 id="english-word-1" style="text-align: right;"></h4>
+        </div>
+
+        <div class="one columns">
+         &nbsp;
+        </div>
+
+        <div class="five columns">
+          <h4 id="english-word-2" style="text-align: left;">Loading...</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="u-pull-right">
+        <button id="play" class="button-primary" style="display: none;">Play</button>
+      </div>
+    </div>
+
+    <div id="clipboard-container"><textarea id="clipboard"></textarea></div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="./js/trello-clipboard.js"></script>
+  <script src="./js/words.js"></script>
+
+</body>
+</html>
