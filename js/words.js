@@ -28,6 +28,7 @@ $(function() {
         var germanWord2 = word2.de.toLowerCase();
         germanWord2 = "<u>" + germanWord2[0] + "</u>" + germanWord2.slice(1);
 
+        $("#german-word-article").html(word2.article);
         $("#german-word-1").html(word1.de);
         $("#english-word-1").html(word1.en);
         $("#german-word-2").html(germanWord2);
